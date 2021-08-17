@@ -28,5 +28,14 @@ jobs:
       # Runs a single command using the runners shell
       - name: Say Hello
         run: echo Hello, world!
+      
+      # Runs a single command using the runners shell
+      - name: Print date
+        run: date
+        
+      # Runs a single command using the runners shell
+      - name: List directory in long format
+        run: ls -al
+
 
       
