@@ -34,6 +34,10 @@ jobs:
       - name: npm install 
         run: npm install  
 
+      # update caniuse-lite 
+      - name: npx browserslist@latest --update-db
+        run: npx browserslist@latest --update-db
+        
       # run eslint
       - name: lint
         run: npm run eslint
